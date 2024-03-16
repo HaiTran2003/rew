@@ -1,0 +1,17 @@
+.box {
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid black;
+    width: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
